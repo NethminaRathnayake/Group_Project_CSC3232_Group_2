@@ -1,0 +1,41 @@
+.Main_box{
+    background-color: rgb(255, 252, 248);
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgb(176, 176, 176);
+}
+
+.Main_table{
+    background-color: rgb(235, 235, 235);
+}
+
+.select_my select{
+    font-size: 13px;
+}
+
+/*  Pagination */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 4px 12px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pagination a.active {
+    background-color: #ebebeb;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+     cursor: pointer;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+}
